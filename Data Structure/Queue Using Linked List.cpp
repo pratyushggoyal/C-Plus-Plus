@@ -33,11 +33,11 @@ void Enque(int x)
 
 void Deque()
 {
-    if (rear == NULL && front == NULL)
+    if (rear == NULL && front == NULL) //checking if condition
     {
         cout << "\nUnderflow";
     }
-    else
+    else //else condition checking
     {
         node *t = front;
         cout << "\n"
