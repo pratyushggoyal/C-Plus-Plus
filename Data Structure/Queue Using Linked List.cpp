@@ -11,7 +11,7 @@ node *front, *rear;
 
 void Enque(int x)
 {
-    if (rear == NULL)
+    if (rear == NULL) //checking if condition
     {
         node *n = new node;
         n->val = x;
@@ -20,7 +20,7 @@ void Enque(int x)
         front = n;
     }
 
-    else
+    else // checking else condition
     {
 
         node *n = new node;
